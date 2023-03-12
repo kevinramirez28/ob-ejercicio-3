@@ -3,7 +3,10 @@ public class Main {
         int resultado;
         //resultado = suma(10,+10,+ 10);
 
-        Coche carr = new Coche(); 
+        Coche micoche = new Coche();
+        micoche.increment( 4 );
+        System.out.println("el coche tiene: " + micoche.puertas + " puertas" );
+
 
 
     }
